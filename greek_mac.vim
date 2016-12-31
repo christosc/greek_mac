@@ -610,7 +610,7 @@ _{v	<char-0x1FA7>  " GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI
 'r	<char-0x1FE4>   "rho psili
 \"r	<char-0x1FE5>   "rho dasia
 
-<R	<char-0x1FEC>   "Rho dasia
+\"R	<char-0x1FEC>   "Rho dasia
 
 " More Symbols
 &&	<char-0x03D7> "Greek kai
