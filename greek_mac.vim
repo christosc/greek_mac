@@ -1,4 +1,4 @@
-" Vim Keymap file for Greek based on Mac OS X's respective keyboard layout.
+" Vim Keymap file for Greek based on the Mac OS respective keyboard layout.
 
 " This keymap is derived from the one of Panagiotis Louridas
 " (<louridas@acm.org>) greek_utf-8.vim, and provides the keymap
@@ -22,19 +22,6 @@
 " Ypogegrammeni is | following the character (the originally proposed
 " i after the character is problematic: can't write easily ai or vi) :
 
-" > dasia " an oxia or baria *always* should follow dasia
-" < psili " an oxia or baria *always* should follow psili
-" ; tonos
-" / oxia
-" ` varia
-" ~ perispomeni
-" : dialytika
-" :; or ;: dialytika oxia
-" :` or `: dialytika baria
-" || a single ypogegrammeni
-" vowel followed by | gives ypogegrammeni to the vowel
-" -vowel gives vowel with macron
-" ^vowel gives vowel with braxy
 " -- endash
 " --- emdash
 " ;b ;p ;f ;u ;r ;k give alternative forms
@@ -51,8 +38,6 @@
 
 
 
-" All accents are supported. Even rho with < and > and Rho with <
-" Also :~i and :~u and macron and braxy a,i,u and their capitals.
 let b:keymap_name = "grkmac"
 loadkeymap
 " PUNCTUATION MARKS - SYMBOLS (GREEK SPECIFIC)
