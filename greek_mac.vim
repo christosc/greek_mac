@@ -1,10 +1,10 @@
 " Vim Keymap file for Greek based on Mac OS X's respective keyboard layout.
 
-" This keymap is derived from the one of Panagiotis' Louridas 
-" (<louridas@acm.org>) greek_polytonic.vim, and provides the keymap
+" This keymap is derived from the one of Panagiotis Louridas
+" (<louridas@acm.org>) greek_utf-8.vim, and provides the keymap
 " for polytonic Greek that is used on Mac OS X.
 "
-
+"
 " The conventions are as follows:
 " EURO SIGN is E$ (0x20AC),
 " Drachma sign is D$ (0x20AF)
@@ -18,12 +18,6 @@
 
 " The Greek ANO TELEIA (0x0387), follows again the kikbd conventions as
 " well as the Emacs conventions. So it is produced by both ;. and W
-
-" All greek accents are added so they can be produced by scholars
-" without having to combine them with letters (usufull for grammarians
-" in particular) (especially for dasia and psiln we use ' for psili
-" (that is apostrophe) and ;' for dasia. This is done in order to
-" preserve the posibility to write a plain < or >.
 
 " Ypogegrammeni is | following the character (the originally proposed
 " i after the character is problematic: can't write easily ai or vi) :
@@ -54,7 +48,6 @@
 " #Q qoppa
 " ;# avw tovos (for numerals)
 " ;## katw tovos (for numerals)
-
 
 
 
