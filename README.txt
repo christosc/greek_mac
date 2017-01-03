@@ -2,7 +2,7 @@ Vim keymap that enables one to write traditional (“polytonic”) Greek.
 The keymap is based on the corresponding Mac OS keyboard layout for polytonic Greek.
 All diacritics are typed before the corresponding letter.
 In case of two diacritics the order is not important.
-If you'd like to modify it the code is available at "https://github.com/christosc/vim".
+The code is also available at "https://github.com/christosc/vim" .
 
 Accents
 -------
@@ -61,4 +61,24 @@ em dash                    ---
 Symbols
 -------
 Euro sign    E$
+
+Install details
+---------------
+Copy the file greek_mac.vim to your home .vim  keymap directory 
+  (~/.vim/keymap/). If the directory does not exist, create it. 
+
+Add to .vimrc the following: 
+
+set keymap=greek_mac 
+set iminsert=0 
+set imsearch=-1 
+
+Set your terminal or gvim to use a font that includes the “extended” Greek characters and symbols. 
+Examples of suitable fonts include the following: 
+
+Menlo 
+Dejavu Sans mono 
+Consolas 
+
+You can change keyboard with Ctrl-^ in insert and command-line modes.
 
