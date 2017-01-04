@@ -76,7 +76,10 @@ Other
  symbol          | key(s)
 ---------------- | -------------
 Euro sign        | E$
+Numerical Sign   | ;# 
+Lower numerical sign | ;## 
 
+You can find more keyboard shortcuts by looking at the code of the keymap.
 
 Installation
 ------------
