@@ -652,6 +652,7 @@ _{v	<char-0x1FA7>  " GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI
 ;f	<char-0x03D5>  " GREEK PHI SYMBOL
 ;p	<char-0x03D6>  " GREEK PI SYMBOL
 #ST	<char-0x03DA>  " GREEK LETTER STIGMA
+#st <char-0x03DB>  " GREEK LETTER SMALL STIGMA
 #G	<char-0x03DC>  " GREEK LETTER DIGAMMA
 #Q	<char-0x03DE>  " GREEK LETTER KOPPA
 #SP	<char-0x03E0>  " GREEK LETTER SAMPI
@@ -689,8 +690,8 @@ _{v	<char-0x1FA7>  " GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI
 " More Symbols
 &&	<char-0x03D7> "Greek kai
 D$	<char-0x20AF> "Drachma symbol
-#Q	<char-0x03D8> "Archaic Qoppa
-#q	<char-0x03D9> "Archaic qoppa
+#Q	<char-0x03DE> "Qoppa
+#q	<char-0x03DF> "Small qoppa
 ;U	<char-0x03F4> "Capital Theta symbol
 "!e	<char-0x03F5> "Lunate epsilon
 "!E	<char-0x03F6> "Lunate Epsilon
