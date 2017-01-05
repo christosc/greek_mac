@@ -26,7 +26,6 @@
 " --- emdash
 " ;b ;p ;f ;u ;r ;k give alternative forms
 " && give the Greek kai symbol
-" #Q and #q give archaic Qoppa and qoppa
 " ;U is capital Theta symbol
 " !e and !E are lunate epsilon and Epsilon
 " #ST stigma
@@ -656,6 +655,7 @@ _{v	<char-0x1FA7>  " GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI
 #G	<char-0x03DC>  " GREEK LETTER DIGAMMA
 #Q	<char-0x03DE>  " GREEK LETTER KOPPA
 #SP	<char-0x03E0>  " GREEK LETTER SAMPI
+#sp <char-0x03E1>  " GREEK LETTER SAMPI
 ;k	<char-0x03F0>  " GREEK KAPPA SYMBOL
 ;r	<char-0x03F1>  " GREEK RHO SYMBOL
 "	<char-0x03F2>  " GREEK LUNATE SIGMA SYMBOL
@@ -693,5 +693,5 @@ D$	<char-0x20AF> "Drachma symbol
 #Q	<char-0x03DE> "Qoppa
 #q	<char-0x03DF> "Small qoppa
 ;U	<char-0x03F4> "Capital Theta symbol
-"!e	<char-0x03F5> "Lunate epsilon
+!e	<char-0x03F5> "Lunate epsilon
 "!E	<char-0x03F6> "Lunate Epsilon
