@@ -105,15 +105,15 @@ Copy the file greek\_mac.vim to your home .vim  keymap directory
 
 Add to .vimrc the following: 
 
-set keymap=greek\_mac  
-set iminsert=0   
-set imsearch=-1   
+> set keymap=greek_mac  
+> set iminsert=0   
+> set imsearch=-1   
 
 Set your terminal or gvim to use a font that includes the “extended” Greek characters and symbols. 
 Examples of suitable fonts include the following: 
 
-Menlo 
-Dejavu Sans mono 
-Consolas 
+Menlo  
+Dejavu Sans mono  
+Consolas  
 
-You can change keyboard with Ctrl-^ in insert and command-line modes.
+You can change keyboard with `Ctrl-^` in insert and command-line modes.
