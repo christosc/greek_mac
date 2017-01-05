@@ -1,6 +1,5 @@
-Vim keymap that enables one to write traditional (“polytonic”) Greek.
+Vim keymap to write traditional (“polytonic”) Greek in the Mac OS way.
 
-The keymap is based on the corresponding Mac OS keyboard layout for polytonic Greek.
 All diacritics are typed before the corresponding letter.
 In case of two diacritics the order is not important.
 
