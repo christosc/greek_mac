@@ -65,6 +65,7 @@ Punctuation
  symbol                    | key(s)
 -------------------------- | -------------
 Middle dot (“ano teleia”)  | ; . or W
+Apostrophe                 | '
 Left quote                 | <<
 Right quote                | >>
 en dash                    | --
