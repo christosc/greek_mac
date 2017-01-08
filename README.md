@@ -1,7 +1,7 @@
 Vim keymap that enables one to write traditional (“polytonic”) Greek.  
 
 The keymap is based on the corresponding Mac OS keyboard layout for polytonic Greek.   
-All diacritics are typed before the corresponding letter.  
+All diacritics except the “breve below” are typed before the corresponding letter.  
 In case of two diacritics the order is not important.
 
 
@@ -58,6 +58,14 @@ Diaeresis/Dialytika
 diaeresis    | :
 + acute      | :;
 + grave      | :]
+
+Breve Below
+------------
+symbol        | key(s)
+------------  | -------------
+breve below   | ~  
+ε̮             | e~  
+ι̮             | i~  
 
 
 Punctuation
