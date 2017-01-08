@@ -56,20 +56,23 @@ q	<char-0x037E>   " GREEK QUESTION MARK (EROTIMATIKO)
 W	<char-0x0387>   " GREEK ANO TELEIA (Emacs standard)
 "'	<char-0x1FBD>   " GREEK APOSTROFOS
 '	<char-0x2019>   " GREEK APOSTROFOS
+\"	<char-0x1FFE>   " GREEK DASIA
 --	<char-0x2013>	" endash
 ---	<char-0x2014>	" emdash
-//  /
 
 "...     <char-0x2026>   " ellipsis
 "
 " GREEK DIACRITICS
 "
-{ 	<char-0x0345>   " YPOGEGRAMMENI
+{	<char-0x0345>   " YPOGEGRAMMENI
 :	<char-0x00A8>   " DIAERESIS [GREEK DIALYTIKA - DEFINITION MISSING FROM
 			" UNICODE]
-:;      <char-0x1FEE>   " DIALYTIKA OXIA
-:]      <char-0x1FED>   " DIALYTIKA VARIA
-:[      <char-0x1FC1>   " DIALYTIKA PERISPOMENI
+:;	<char-0x1FEE>   " DIALYTIKA OXIA
+;:	<char-0x1FEE>   " DIALYTIKA OXIA
+:]	<char-0x1FED>   " DIALYTIKA VARIA
+]:	<char-0x1FED>   " DIALYTIKA VARIA
+:[	<char-0x1FC1>   " DIALYTIKA PERISPOMENI
+[:	<char-0x1FC1>   " DIALYTIKA PERISPOMENI
 ;	<char-0x0384>   " GREEK TONOS
 ]	<char-0x1FEF>   " GREEK VARIA
 [	<char-0x1FC0>   " PERISPOMENI
@@ -79,8 +82,7 @@ W	<char-0x0387>   " GREEK ANO TELEIA (Emacs standard)
 ?	<char-0x1FDE>	" DASIA OXIA
 _	<char-0x1FDF>	" DASIA PERISPOMENI
 "-	<char-0x1FCF>	" PSILI PERISPOMENI
--   -
-\\-  -
+
 "For plain psili use apostrophe
 ;'	<char-0x1FFE>	" (Plain) dasia
 "
@@ -163,6 +165,13 @@ v	<char-0x03C9>   " GREEK SMALL LETTER OMEGA
 ]:y	<char-0x1FE2>  " GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND baria
 :i	<char-0x03CA>  " GREEK SMALL LETTER IOTA WITH DIALYTIKA
 :y	<char-0x03CB>  " GREEK SMALL LETTER UPSILON WITH DIALYTIKA
+
+:[i	<char-0x1FD7>  "iota dialytika perispomeni
+[:i	<char-0x1FD7>  "iota dialytika perispomeni
+:[y	<char-0x1FE7>  "upsilon dialytika perispomeni
+[:y	<char-0x1FE7>  "upsilon dialytika perispomeni
+
+~	<char-0x032E>  " COMBINING BREVE BELOW
 ;o	<char-0x03CC>  " GREEK SMALL LETTER OMICRON WITH TONOS
 ;y	<char-0x03CD>  " GREEK SMALL LETTER UPSILON WITH TONOS
 ;v	<char-0x03CE>  " GREEK SMALL LETTER OMEGA WITH TONOS
@@ -651,24 +660,16 @@ _{v	<char-0x1FA7>  " GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI
 ;f	<char-0x03D5>  " GREEK PHI SYMBOL
 ;p	<char-0x03D6>  " GREEK PI SYMBOL
 #ST	<char-0x03DA>  " GREEK LETTER STIGMA
-#st <char-0x03DB>  " GREEK LETTER SMALL STIGMA
+#st	<char-0x03DB>  " GREEK LETTER SMALL STIGMA
 #G	<char-0x03DC>  " GREEK LETTER DIGAMMA
 #Q	<char-0x03DE>  " GREEK LETTER KOPPA
 #SP	<char-0x03E0>  " GREEK LETTER SAMPI
-#sp <char-0x03E1>  " GREEK LETTER SAMPI
+#sp	<char-0x03E1>  " GREEK LETTER SAMPI
 ;k	<char-0x03F0>  " GREEK KAPPA SYMBOL
 ;r	<char-0x03F1>  " GREEK RHO SYMBOL
 "	<char-0x03F2>  " GREEK LUNATE SIGMA SYMBOL
 "	<char-0x03F3>  " GREEK LETTER YOT
 
-:~	<char-0x1FC1>   "dialytika peripswmevn
-~:	<char-0x1FC1>   "dialytika peripswmevn
-
-:~i	<char-0x1FD7>  "iota dialytika perispomeni
-~:i	<char-0x1FD7>  "iota dialytika perispomeni
-
-:~y	<char-0x1FE7>  "upsilon dialytika perispomeni
-~:y	<char-0x1FE7>  "upsilon dialytika perispomeni
 
 "-a	<char-0x1FB1>   "alpha macron
 "-i	<char-0x1FD1>   "iota macron
