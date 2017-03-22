@@ -27,7 +27,7 @@
 " ;b ;p ;f ;u ;r ;k give alternative forms
 " && give the Greek kai symbol
 " ;U is capital Theta symbol
-" !e and !E are lunate epsilon and Epsilon
+" #e and #E are lunate epsilon and Epsilon
 " #ST stigma
 " #SP sampi
 " #G digamma
@@ -694,5 +694,5 @@ D$	<char-0x20AF> "Drachma symbol
 #Q	<char-0x03DE> "Qoppa
 #q	<char-0x03DF> "Small qoppa
 ;U	<char-0x03F4> "Capital Theta symbol
-!e	<char-0x03F5> "Lunate epsilon
-"!E	<char-0x03F6> "Lunate Epsilon
+#e	<char-0x03F5> "Lunate epsilon
+#E	<char-0x03F6> "Lunate Epsilon
