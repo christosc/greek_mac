@@ -63,9 +63,12 @@ Breve Below
 ------------
 symbol        | key(s)
 ------------  | -------------
-breve below   | ~  
-ε̮             | e~  
-ι̮             | i~  
+breve below   | \u  
+ε̮             | e\u  
+ι̮             | i\u  
+tilde below   | ~
+ι̰             | i~
+
 
 
 Punctuation
