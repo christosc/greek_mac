@@ -171,7 +171,8 @@ v	<char-0x03C9>   " GREEK SMALL LETTER OMEGA
 :[y	<char-0x1FE7>  "upsilon dialytika perispomeni
 [:y	<char-0x1FE7>  "upsilon dialytika perispomeni
 
-~	<char-0x032E>  " COMBINING BREVE BELOW
+\\u	<char-0x032E>  " COMBINING BREVE BELOW
+~	<char-0x0330>  " COMBINING TILDE BELOW
 ;o	<char-0x03CC>  " GREEK SMALL LETTER OMICRON WITH TONOS
 ;y	<char-0x03CD>  " GREEK SMALL LETTER UPSILON WITH TONOS
 ;v	<char-0x03CE>  " GREEK SMALL LETTER OMEGA WITH TONOS
