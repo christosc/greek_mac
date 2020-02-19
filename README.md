@@ -129,3 +129,9 @@ Dejavu Sans mono
 Consolas  
 
 You can change keyboard with `Ctrl-^` in insert and command-line modes.
+Or if you'd like you can define a more convenient shortcut for insert mode, such as the following:
+
+> inoremap <C-l> <C-^>
+
+to make CTRL-l switch between keyboard maps. This command should placed in your vimrc.
+
